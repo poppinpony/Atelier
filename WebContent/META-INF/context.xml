@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context> 
+  
+       <Resource
+    	name="jdbc/YuruCamp"
+    	type="javax.sql.DataSource"
+    	auth="Container" username="sa"
+    	password="sa123456"
+    	driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver"
+    	url="jdbc:sqlserver://localhost:1433;databaseName=YuruCamp" />   	
+    	
+</Context>

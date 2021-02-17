@@ -1,0 +1,63 @@
+.reserve-step-group ol {
+    text-align: center;
+}
+
+.reserve-step-group ol li {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    vertical-align: top;
+    padding-right: 70px;
+    padding-left: 5px;
+    color: #282828;
+}
+
+.reserve-step-group ol li .step-name {
+    display: inline-block;
+    font-size: 1em;
+    color: #6b552ee8;
+    font-weight:bold;
+}
+
+.reserve-step-group ol li:after {
+    width: 60px;
+    height: 2px;
+    background-color: #E1E1E1;
+    display: inline-block;
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 15px;
+}
+
+.reserve-step-group ol li.step-success .step-circle i {
+    width: 18px;
+    height: 14px;
+    display: inline-block;
+}
+
+.reserve-step-group ol li.step-success .step-circle .svg {
+    background: url(../img/car/success.png) 
+/*     center no-repeat; */
+}
+
+.reserve-step-group ol li .step-circle {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    line-height: 30px;
+    text-align: center;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+    background: #B3A16E;
+    border: 1px solid #E1E1E1;
+/*     background-color: transparent; */
+    color: #5F5F5F;
+}
+
+.reserve-step-group ol li.step-now .step-circle {
+    background: #EC7357;
+    color: #fff;
+    border: none;
+}

@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+/* <!--forumClassify --> */
+
+.classify-enter a{
+/* 	border-style:outset; */
+	border-width: 15px;
+	font-size:30px;
+ 	text-align:center; 
+ 	font-family: Microsoft JhengHei;
+	list-style-type:none;
+	background-color: #dbcf83;
+    padding: 0px 20px;
+    color: white;
+    border-radius: 25px;
+    text-decoration: none;
+	
+}
+.classify-enter ul li{
+		list-style-type:none;
+	
+}
+.classify-enter a:hover {
+    color: #dbcf83;
+    text-decoration: none;
+    background-color: #998866;
+	
+	
+	}

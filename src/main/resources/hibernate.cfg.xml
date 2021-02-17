@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+		"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+		"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+		<property name="hibernate.dialect">org.hibernate.dialect.SQLServer2008Dialect</property>
+
+		<property name="show_sql">true</property>
+		<property name="format_sql">true</property>
+
+
+
+		<!-- Member Area -->
+		<mapping class="com.yurucamp.member.model.MemberBean"/>
+		<!-- MallSystem Area -->
+		<mapping class="com.yurucamp.mallsystem.model.BrandBean" />
+		<mapping class="com.yurucamp.mallsystem.model.Comment" />
+		<mapping class="com.yurucamp.mallsystem.model.OrderBean" />
+		<mapping class="com.yurucamp.mallsystem.model.OrderDetailBean" />
+		<mapping class="com.yurucamp.mallsystem.model.ProductBean" />
+		<mapping class="com.yurucamp.mallsystem.model.TrackProductBean" />
+		<mapping class="com.yurucamp.mallsystem.model.ItemStatus" />
+		<mapping class="com.yurucamp.mallsystem.model.ShoppingCart" />
+		<!-- Forum Area -->
+		<mapping class="com.yurucamp.forum.model.PostBean" />
+		<mapping class="com.yurucamp.forum.model.ForumBean" />
+		<mapping class="com.yurucamp.forum.model.ReplyBean" />
+		<mapping class="com.yurucamp.forum.model.RestrictBean" />
+		<!-- Camp Area -->
+		<mapping class="com.yurucamp.camp.model.CampInfo" />
+		<mapping class="com.yurucamp.camp.model.CampDetail" />
+		<mapping class="com.yurucamp.camp.model.CampOrder" />
+		<mapping class="com.yurucamp.camp.model.CampSide" />
+		<!-- Car Area -->
+		<mapping class="com.yurucamp.car.model.CarBean" />
+		<mapping class="com.yurucamp.car.model.DiscountBean" />
+		<mapping class="com.yurucamp.car.model.ReservationBean" />
+		<!-- backstage Area -->
+		<mapping class="com.yurucamp.backstage.model.Test" />
+		<mapping class="com.yurucamp.backstage.model.CalendarBean" />
+
+	</session-factory>
+</hibernate-configuration>
